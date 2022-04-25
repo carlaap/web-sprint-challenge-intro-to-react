@@ -23,7 +23,7 @@ const App = () => {
       //console.log(res.data);
 
       let characters = res.data;
-      let id = 1;
+      let id = 1
       characters?.forEach((item) => (item.id = id++));
       //console.log(characters);
 
